@@ -57,7 +57,9 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   static Future<void> _handleBureauResult(MethodCall call) async {
-    if (call.method != 'getJourneyResult') "";
+    if (call.method != 'getBureauJourneyResult') {
+      return;
+    }
 
     print("FinBox Bureau Result: ${call.arguments}");
   }

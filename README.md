@@ -63,12 +63,12 @@ Once the user has granted the consent, the SDK will be automatically closed. Onc
 Listen to the result callbacks from `build` method.
 
 ```dart
-FinBoxBureauPlugin.platform.setMethodCallHandler(_getJourneyResult);
+FinBoxBureauPlugin.platform.setMethodCallHandler(_getBureauJourneyResult);
 ```
 
 ```dart
-static Future<void> _getJourneyResult(MethodCall call) async {
-if (call.method == 'getJourneyResult') {
+static Future<void> _getBureauJourneyResult(MethodCall call) async {
+if (call.method == 'getBureauJourneyResult') {
         var resultJson = call.arguments
     }
 }
