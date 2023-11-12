@@ -61,10 +61,10 @@ packages:
     dependency: "direct main"
     description:
       name: finbox_bureau_plugin
-      sha256: "65fc239728c51a25705294817983bf41687f191a6b87059679af9cb59bcecd65"
+      sha256: "33d4e3afa885ac15bd4409279e7e93af6544f616fa5a529b965decace2ae1927"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.6"
+    version: "0.0.7"
   flutter:
     dependency: "direct main"
     description: flutter
